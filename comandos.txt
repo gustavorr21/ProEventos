@@ -1,0 +1,11 @@
+inicar a aplicação para ver atualizacao imediata
+dotnet watch run
+
+para liberar aplicação https
+dotnet dev-certs https --trust
+
+get - requisitar
+post - criar (create)
+pu - atualizar (update)
+patch - atualizar parcial (update partial)
+delete - deletar
