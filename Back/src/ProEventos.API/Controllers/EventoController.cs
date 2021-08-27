@@ -20,10 +20,11 @@ namespace ProEventos.API.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Evento> Get()
+           public IEnumerable<Evento> Get()
         {
             return _context.Eventos;
         }
+
         [HttpGet("{id}")]
         public Evento Get(int id)
         {
